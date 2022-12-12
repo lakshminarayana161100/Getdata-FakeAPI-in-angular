@@ -1,0 +1,20 @@
+<h2>HTTP Module in angular (send API calls )</h2>
+<button (click)="getDate()">Get</button>
+
+
+<div *ngIf="data">
+  <table border="2">
+    <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>price</th>
+    </tr>
+
+    <tr *ngFor="let product of data">
+      <td>{{product.id}}</td>
+      <td>{{product.title}}</td>
+      <td>{{product.price}}</td>
+    </tr>
+  </table>
+
+</div>

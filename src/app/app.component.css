@@ -1,0 +1,16 @@
+button{
+    color: aqua;
+    position: absolute;
+    border-radius: 5px;
+    width: 100px;
+
+}
+td{
+    padding: 5px 20px;
+    border: 2px solid greenyellow;
+}
+
+table {
+    border-collapse: collapse;
+    padding: 5px;
+}
